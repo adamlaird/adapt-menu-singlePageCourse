@@ -18,6 +18,7 @@ define(function (require) {
 
         _.defer(function() {
             $('.navigation-back-button').addClass('display-none');
+            $('.navigation-drawer-toggle-button').addClass('display-none');
         });
     });
 }
