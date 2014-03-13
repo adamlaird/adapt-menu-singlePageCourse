@@ -6,7 +6,7 @@ define(function (require) {
     
     Adapt.on('router:menu', function (model) {
         // Listen to when Adapt hits a menu and navigate to a page. Make sure the string here is the page ID you're trying to route too.
-        var newRouteId = 'onePrescription_page'
+        var newRouteId = 'coursepage'
 
         Backbone.history.navigate('#/id/' + newRouteId, true);
 
